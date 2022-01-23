@@ -1,4 +1,4 @@
-<include a CircleCI status badge, here>
+[![CircleCI](https://circleci.com/gh/jiewwantan/mlpred_boston_prices/tree/main.svg?style=svg)](https://circleci.com/gh/jiewwantan/mlpred_boston_prices/tree/main)
 
 ## Project Overview
 
