@@ -1,1 +1,16 @@
 <paste log output from Kubernetes-mediated prediction, here>
+
+deployment.apps/mlpred-boston-prices created
+NAME                                   READY   STATUS              RESTARTS   AGE
+mlpred-boston-prices-c6bdb6bd6-89mmv   0/1     ContainerCreating   0          3s
+POD_NAME: mlpred-boston-prices-c6bdb6bd6-89mmv
+service/mlpred-boston-prices exposed
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
+Handling connection for 8000
+
+
+\project-ml-microservice-kubernetes> kubectl get pod
+NAME                                   READY   STATUS    RESTARTS   AGE
+mlpred-boston-prices-c6bdb6bd6-89mmv   1/1     Running   0          9m45s
